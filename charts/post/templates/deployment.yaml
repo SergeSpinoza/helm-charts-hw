@@ -1,5 +1,5 @@
 ---
-apiVersion: apps/v1beta1
+apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: post
@@ -26,10 +26,4 @@ spec:
         env:
         - name: POST_DATABASE_HOST
           value:  {{ .Values.databaseHost | default (printf "%s-mongodb" .Release.Name) }}
-        - name: ZIPKIN_ENABLED
-          value: {{  .Values.zipkinEnabled | default "false" | quote }}
-        - name: ZIPKIN_HOST
-          value: {{  .Values.zipkinHost | default "zipkin" }}
-        - name: ZIPKIN_PORT
-          value: {{  .Values.zipkinPort | default "9411" | quote }}
 ...

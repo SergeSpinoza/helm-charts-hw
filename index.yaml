@@ -3,43 +3,43 @@ entries:
   comment:
   - apiVersion: v1
     appVersion: "1"
-    created: 2019-10-27T15:11:02.94813+03:00
+    created: "2019-11-21T21:51:21.068023+03:00"
     description: OTUS reddit application COMMENT homework
-    digest: e2c462ab817b9ad80ff590237ab18b2cd9eef29fa34157cd5e8b25421be3d69e
+    digest: 946289601203e3f6c6bd8a538186eb789691bceb18c9f1cb34c3e2403ca0a4e3
     home: https://github.com/czm41k/helm-charts/
     maintainers:
     - email: etselikov@express42.com
       name: czm41k
     name: comment
     urls:
-    - comment-1.1.1.tgz
+    - https://raw.githubusercontent.com/SergeSpinoza/helmcharts-hw/master/comment-1.1.1.tgz
     version: 1.1.1
   post:
   - apiVersion: v1
     appVersion: "1"
-    created: 2019-10-27T15:11:02.94839+03:00
+    created: "2019-11-21T21:51:21.068284+03:00"
     description: OTUS reddit application POST homework
-    digest: 8ced9b976a29636395547e4ab3706b5ca55d9b6857bff13112dcf54d0ab67ae7
+    digest: 9fcc74033c7cd35fc293a468a64d266d5fa0dc7036b3688c348d961adae42d35
     home: https://github.com/czm41k/helm-charts/
     maintainers:
     - email: etselikov@express42.com
       name: czm41k
     name: post
     urls:
-    - post-1.1.1.tgz
+    - https://raw.githubusercontent.com/SergeSpinoza/helmcharts-hw/master/post-1.1.1.tgz
     version: 1.1.1
   ui:
   - apiVersion: v1
     appVersion: "1"
-    created: 2019-10-27T15:11:02.948656+03:00
+    created: "2019-11-21T21:51:21.068556+03:00"
     description: OTUS reddit application UI homework
-    digest: 744387a9d06dd26b519d47c078bdd19b757692d3bbbda19e16a16fe1aef4fefa
+    digest: 10e99a2ec4ea52b90875d4e8eafcbd487d6a0e5e10982b28c002a94512c02910
     home: https://github.com/czm41k/helm-charts/
     maintainers:
     - email: etselikov@express42.com
       name: czm41k
     name: ui
     urls:
-    - ui-1.1.1.tgz
+    - https://raw.githubusercontent.com/SergeSpinoza/helmcharts-hw/master/ui-1.1.1.tgz
     version: 1.1.1
-generated: 2019-10-27T15:11:02.94727+03:00
+generated: "2019-11-21T21:51:21.067509+03:00"

@@ -31,12 +31,6 @@ spec:
           value: {{  .Values.commentHost | default (printf "comment") }}
         - name: COMMENT_SERVICE_PORT
           value: {{  .Values.commentPort | default "9292" | quote }}
-        - name: ZIPKIN_ENABLED
-          value: {{  .Values.zipkinEnabled | default "false" | quote }}
-        - name: ZIPKIN_HOST
-          value: {{  .Values.zipkinHost | default "zipkin" }}
-        - name: ZIPKIN_PORT
-          value: {{  .Values.zipkinPort | default "9411" | quote }}
         - name: ENV
           valueFrom:
             fieldRef:
