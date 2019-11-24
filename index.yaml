@@ -3,7 +3,7 @@ entries:
   comment:
   - apiVersion: v1
     appVersion: "1"
-    created: "2019-11-21T21:51:21.068023+03:00"
+    created: "2019-11-24T15:09:33.545889+03:00"
     description: OTUS reddit application COMMENT homework
     digest: 946289601203e3f6c6bd8a538186eb789691bceb18c9f1cb34c3e2403ca0a4e3
     home: https://github.com/czm41k/helm-charts/
@@ -12,12 +12,12 @@ entries:
       name: czm41k
     name: comment
     urls:
-    - https://raw.githubusercontent.com/SergeSpinoza/helmcharts-hw/master/comment-1.1.1.tgz
+    - https://raw.githubusercontent.com/SergeSpinoza/helm-charts-hw/master/comment-1.1.1.tgz
     version: 1.1.1
   post:
   - apiVersion: v1
     appVersion: "1"
-    created: "2019-11-21T21:51:21.068284+03:00"
+    created: "2019-11-24T15:09:33.546124+03:00"
     description: OTUS reddit application POST homework
     digest: 9fcc74033c7cd35fc293a468a64d266d5fa0dc7036b3688c348d961adae42d35
     home: https://github.com/czm41k/helm-charts/
@@ -26,12 +26,12 @@ entries:
       name: czm41k
     name: post
     urls:
-    - https://raw.githubusercontent.com/SergeSpinoza/helmcharts-hw/master/post-1.1.1.tgz
+    - https://raw.githubusercontent.com/SergeSpinoza/helm-charts-hw/master/post-1.1.1.tgz
     version: 1.1.1
   ui:
   - apiVersion: v1
     appVersion: "1"
-    created: "2019-11-21T21:51:21.068556+03:00"
+    created: "2019-11-24T15:09:33.54639+03:00"
     description: OTUS reddit application UI homework
     digest: 10e99a2ec4ea52b90875d4e8eafcbd487d6a0e5e10982b28c002a94512c02910
     home: https://github.com/czm41k/helm-charts/
@@ -40,6 +40,6 @@ entries:
       name: czm41k
     name: ui
     urls:
-    - https://raw.githubusercontent.com/SergeSpinoza/helmcharts-hw/master/ui-1.1.1.tgz
+    - https://raw.githubusercontent.com/SergeSpinoza/helm-charts-hw/master/ui-1.1.1.tgz
     version: 1.1.1
-generated: "2019-11-21T21:51:21.067509+03:00"
+generated: "2019-11-24T15:09:33.544157+03:00"
